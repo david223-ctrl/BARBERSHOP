@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+<style>
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+  
+  #menu:checked ~ nav{
+    display: block;
+  }
+</style>
+
+<body class="bg-[url(https://wallpaperaccess.com/full/3167720.jpg)] bg-center bg-no-repeat bg-cover bg-fixed">
+
+  <header
+    class="fixed z-10  py-6 flex justify-center w-full bg-black/30 shadow-2xl shadow-black/50 backdrop-blur-2xl  max-lg:relative max-lg:justify-between p-3 max-lg:flex max-lg:space-between max-lg:items-center">
+    <img src="./Gemini_Generated_Image_htpckmhtpckmhtpc-removebg-preview.png" class="max-lg:w-[100px] lg:hidden" alt="">
+    <label for="menu" class=" text-yellow-500 text-2xl lg:hidden"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" class="hidden" id="menu">
+    <nav
+      class="max-lg:absolute max-lg:top-full max-lg:right-0  max-lg:w-[400px] max-sm:w-full max-lg:hidden overflow-hidden max-lg:bg-black/60 max-lg:backdrop-blur-2xl max-lg:p-3">
+      <ul
+        class="w-full flex justify-center items-center mt-7 max-lg:mt-0 gap-10 max-lg:gap-3 text-xs uppercase tracking-widest font-semibold text-gray-400 text-[15px] max-lg:flex-col">
+        <li>
+          <a href="#home" class="hover:text-white text-[#dfb76c] transition duration-300">Գլխավոր</a>
+        </li>
+        <li>
+          <a href="#about" class="hover:text-white transition duration-300">Իմ մասին</a>
+        </li>
+        <li>
+          <a href="#cucak" class="hover:text-white transition duration-300">Ծառայություններ</a>
+        </li>
+        <li class="max-lg:hidden">
+          <img src="./Gemini_Generated_Image_htpckmhtpckmhtpc-removebg-preview.png"
+            class="v-26 h-26 max-lg:hidden ">
+        </li>
+
+        <li>
+          <a href="#address" class="hover:text-white transition duration-300">Հասցե</a>
+        </li>
+        <li>
+          <a href="#cucak" class="hover:text-white transition duration-300">Գնացուցակ</a>
+        </li>
+        <li>
+          <a href="#contact" class="hover:text-white transition duration-300">Կոնտակտ</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="  bg-cover h-screen bg-center bg-no-repeat opacity-100 scale-100 bg-[url(./1.jpg)]">
+    <div
+      class="  bg-black/60 backdrop-blur-sm via-transparent to-black/90 z-0 size-full flex justify-center items-center flex-col gap-10">
+      <h2 class="  text-white text-center text-5xl font-bold uppercase max-sm:text-[30px]">ԵՂԻ՛Ր <span
+          class="text-yellow-500 ">ԱՅՆՊԻՍԻՆ</span>, <br><span>ԻՆՉՊԻՍԻՆ ԿԱՍ, ԲԱՅՑ ՈՉ ԿՐԿՆՎՈՂ</span></h2>
+      <a href="#cucak" class="text-2xl text-white p-6 bg-yellow-500 rounded-4xl max-sm:p-3">Գնացուցակ</a>
+    </div>
+  </div>
+
+  <div class="text-white flex flex-col items-center justify-center bg-[#1a1a1a] p-8 ">
+    <h2 class="text-3xl font-bold uppercase tracking-wider mb-2">Գնացուցակ</h2>
+    <p class="text-gray-400 text-center max-w-2xl mb-12 text-sm">
+     դու կարող ես ծանոթանալ Գնացուցակին
+    </p>
+
+    <div id="cucak" class="flex  justify-center gap-8 w-full max-w-6xl max-md:flex-col max-md:items-center ">
+
+      <div class="flex flex-col  items-center bg-[#151515] p-6 border border-[#2a2a2a] w-[600px] max-sm:w-full">
+        <img src="https://templatekit.jegtheme.com/rubick/wp-content/uploads/sites/29/2020/12/rubick-price-2@3x.png"
+          class="w-[250px] h-auto mb-6">
+        <ul class="w-full flex flex-col gap-4 ">
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">կտրվածք</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">2000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">երկար կտրվածք</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">2000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">մորուքի կտրվածք</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">2000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">զրոյական կտրվածք</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">2000դր</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col items-center bg-[#151515] p-6 border border-[#2a2a2a] w-[600px] max-sm:w-full">
+        <img src="https://templatekit.jegtheme.com/rubick/wp-content/uploads/sites/29/2020/12/rubick-price@3x.png"
+          class="w-[315px] h-auto mb-6">
+        <ul class="w-full flex flex-col gap-4">
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">ֆեն</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">1000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">Ներկ</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">2000-4000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">դեմքի խնամք</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">3000դր</span>
+          </li>
+          <li class="flex justify-between items-baseline gap-2">
+            <span class="font-medium text-3xl max-sm:text-2xl">ոսկ</span>
+            <span class="flex-grow border-b border-dotted border-gray-600 mx-2"></span>
+            <span class="text-[#d4af37] font-semibold text-3xl max-sm:text-2xl">1000-2000դր</span>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="py-12 flex flex-col items-center gap-24 ">
+    <h2 class="text-5xl text-center max-sm:text-3xl font-bold uppercase text-yellow-500">Իմ աշխատանքները</h2>
+    <div class="grid grid-cols-3 max-md:grid-cols-2 max-w-7xl mx-auto gap-3 justify-center">
+      <img src="./1.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./2.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./3.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./4.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./5.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./6.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+      <img src="./8.jpg" alt="" class="w-full h-[350px] object-cover hover:-translate-y-3 transition-all duration-400">
+    </div>
+  </div>
+
+
+  <div id="about" class="py-12 flex flex-col items-center gap-24 max-lg:py-6">
+    <h2 class="text-yellow-500 text-5xl uppercase font-bold">իմ մասին</h2>
+    <div class="flex justify-center gap-12 items-center  max-md:flex-col-reverse">
+      <p class="text-white w-[500px] max-sm:w-full p-3 text-lg">
+
+        Բարև, ես պրոֆեսիոնալ վարսավիր եմ, ով սիրում է իր աշխատանքը և յուրաքանչյուր հաճախորդի համար ստեղծում է
+        յուրահատուկ
+        ոճ։ Իմ նպատակն է ոչ միայն գեղեցիկ սանրվածք ապահովել, այլ նաև վստահություն և հարմարավետություն պարգևել
+        յուրաքանչյուր այցի ընթացքում։
+
+        ✔️ Ժամանակակից և դասական սանրվածքներ
+        ✔️ Մորուքի խնամք և ձևավորում
+        ✔️ Անհատական մոտեցում յուրաքանչյուր հաճախորդին
+        ✔️ Մաքուր, հարմարավետ և պրոֆեսիոնալ միջավայր
+
+        Մեզ մոտ յուրաքանչյուր այց դառնում է ոճի և ինքնավստահության նոր սկիզբ։ Բարի գալուստ՝ թարմացնելու Ձեր տեսքը և
+        ընդգծելու Ձեր անհատականությունը։ ✂️💈</p>
+
+      <img class="w-[600px] h-[700px] object-cover" src="./7.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="py-12 flex flex-row items-start justify-center gap-24 text-white font-sans  max-md:flex-col-reverse max-md:items-center">
+
+    <div class="bg-white text-black p-8 max-w-sm w-full shadow-lg ">
+      <form action="" class="flex flex-col gap-4">
+        <input type="text" placeholder="Անուն"
+          class="border border-gray-300 p-3 text-sm  placeholder-gray-400 w-full max-sm:text-lg">
+        <input type="tel" placeholder="+374....."
+          class="border border-gray-300 p-3 text-sm  placeholder-gray-400 w-full max-sm:text-lg">
+        <div class="grid grid-cols-2 gap-4">
+          <input type="date"
+            class="border border-gray-300 p-3 text-sm  text-gray-500 uppercase w-full max-sm:text-lg">
+          <input type="time"
+            class="border border-gray-300 p-3 text-sm  text-gray-500 w-full max-sm:text-lg">
+        </div>
+        <button
+          class="bg-[#222] text-white font-bold text-xs uppercase tracking-widest py-4 mt-2 transition hover:bg-black w-full">
+          Գրանցվել
+        </button>
+      </form>
+    </div>
+
+    <div class="max-w-md">
+      <h2 class="text-4xl font-bold uppercase tracking-wider mb-4">ԱՅՍՏԵԶ ԴՈՒ ԿԱՐՈՂ ԵՍ Գրանցվել</h2>
+      <p class="text-gray-400 text-sm leading-relaxed">
+        ԳՐԱՆՑՎԻ ԱՅՍ ՏԵՂ
+      </p>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
